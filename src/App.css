@@ -1,0 +1,25 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background: rgb(76, 90, 246);
+  background: linear-gradient(
+    145deg,
+    rgba(76, 90, 246, 1) 0%,
+    rgba(137, 54, 237, 1) 35%,
+    rgba(246, 53, 129, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+section {
+}
