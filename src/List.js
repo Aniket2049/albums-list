@@ -1,8 +1,8 @@
 import React from "react";
 
-import albums from "./data";
+const List = (props) => {
+  const albums = props.listItems;
 
-const List = () => {
   return (
     <div className='list'>
       {albums.map((album) => {
