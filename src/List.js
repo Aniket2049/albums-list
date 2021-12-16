@@ -3,9 +3,11 @@ import React, { useState } from "react";
 import data from "./data";
 
 const List = () => {
-  const albums = data;
+  const [albums, setAlbums] = useState(data);
 
-  const clearListItemsHandler = () => {};
+  const clearListItemsHandler = () => {
+    setAlbums([]);
+  };
 
   return (
     <div className='list'>
