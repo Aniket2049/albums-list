@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
+
 html {
   min-height: 100%;
+  font-family: "Barlow";
 }
 
 body {
@@ -39,4 +42,13 @@ section {
   display: flex;
   padding: 5px;
   align-items: center;
+}
+
+.album {
+  font-size: large;
+}
+
+.artist {
+  font-size: larger;
+  font-weight: bold;
 }
