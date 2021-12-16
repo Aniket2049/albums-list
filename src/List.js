@@ -6,7 +6,13 @@ const List = () => {
   const [albums, setAlbums] = useState(data);
 
   const clearListItemsHandler = () => {
-    setAlbums([]);
+    if (albums.length > 0) {
+      setAlbums([]);
+      document.getElementsByClassName("clearListItemsBtn")[0].innerHTML =
+        "Click to Reload";
+    } else {
+      window.location.reload();
+    }
   };
 
   return (
