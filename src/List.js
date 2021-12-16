@@ -14,8 +14,10 @@ const List = () => {
               width='100px'
               height='100px'
             />
-            <h3>{album.artist}</h3>
-            <p>{album.title}</p>
+            <div style={{ flexGrow: "1" }}>
+              <div className='artist'>{album.artist}</div>
+              <div className='album'>{album.title}</div>
+            </div>
           </div>
         );
       })}
