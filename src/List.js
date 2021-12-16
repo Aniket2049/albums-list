@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
-const List = (props) => {
-  const albums = props.listItems;
+import data from "./data";
+
+const List = () => {
+  const albums = data;
+
+  const clearListItemsHandler = () => {};
 
   return (
     <div className='list'>
@@ -21,6 +25,9 @@ const List = (props) => {
           </div>
         );
       })}
+      <button className='clearListItemsBtn' onClick={clearListItemsHandler}>
+        Clear All
+      </button>
     </div>
   );
 };
