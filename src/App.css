@@ -52,3 +52,24 @@ section {
   font-size: larger;
   font-weight: bold;
 }
+
+.clearListItemsBtn {
+  width: 97.5%;
+  margin-top: 10px;
+  padding: 5px 0px;
+  color: white;
+  border: 1px solid !important;
+  background-color: #6f5bd6;
+  border-radius: 4px;
+  font-family: "Barlow";
+  font-size: large;
+}
+
+.clearListItemsBtn:hover {
+  color: #6f5bd6 !important;
+  background-color: white !important;
+  border: 1px solid !important;
+  border-color: #6f5bd6 !important;
+  box-shadow: 0px 5px 8px 8px rgb(76 90 246 / 30%) !important;
+  cursor: pointer;
+}
