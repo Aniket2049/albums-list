@@ -23,6 +23,12 @@ const list = [
     title: "We Had It All For Just A Moment",
     albumArtURL: "https://f4.bcbits.com/img/a1416337527_16.jpg",
   },
+  {
+    id: 5,
+    artist: "Narvent",
+    title: "Memory Reboot",
+    albumArtURL: "https://i1.sndcdn.com/artworks-8zY79hHzgzoNqx9O-qPGziw-t500x500.jpg",
+  },
 ];
 
 export default list;
