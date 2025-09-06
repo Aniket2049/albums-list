@@ -4,7 +4,7 @@ import data from "./data";
 
 const List = () => {
   const [albums, setAlbums] = useState(data);
-  const [btnText, setBtnText] = useState("arshan Clear All");
+  const [btnText, setBtnText] = useState("Clear All");
 
   const clearListItemsHandler = () => {
     if (albums.length > 0) {
